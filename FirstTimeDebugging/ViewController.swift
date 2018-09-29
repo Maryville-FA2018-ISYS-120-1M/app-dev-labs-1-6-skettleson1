@@ -9,7 +9,10 @@ class ViewController: UIViewController {
         print(sample)
         if sample != "sample" {
             someMethod()
-        }
+} /* looking for: if false {
+ print("Will this line of code ever be reached?")
+ someMethod()
+     } */
     }
     func someMethod() {
     print("Will this line of code ever be reached?")
